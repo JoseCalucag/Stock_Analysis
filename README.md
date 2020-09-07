@@ -48,5 +48,5 @@ More importantly, we do see that was a performance efficiency. Within the code, 
 
 
 ## Summary
-So, to conclude simply, there's always another way to crack an egg. By refactoring a working code, we can find different ways to relay the same results, but in a more impactful and a more efficient way. Why look at just one thread of data when you can see a whole days worth of data? Why just wait for data when you can impliment methods to make it work faster to provide quicker and up-to-the-minute results?
+So, to conclude simply, there's always another way to crack an egg. By refactoring a working code, we can find different ways to relay the same results, but in a more impactful and a more efficient way. Why look at just one thread of data when you can see a whole days worth of data? Why just wait for data when you can impliment methods to make it work faster to provide quicker and up-to-the-minute results? We should not accept what can just be done when the resources are out there to create something better.
 
