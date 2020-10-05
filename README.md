@@ -14,37 +14,37 @@ The purpose of this analysis is to see if there are alternatives to a tried and 
 ### What we got
 First let's take a look at the Original Code results. On first glance, we see three columns: 1) the Stock in it's abbreviated name, 2) the Total Daily Outcome and 3) it's return for the day based upon it's starting price to it's closing price.  
 
-2017 Original Results <br/>
-<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2017%20Original%20Sheet.png" width="200" height="200">
+**2017 Original Results** <br/>
+<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2017%20Original%20Sheet.png" width="300" height="300">
 
-2018 Original Results <br/>
-<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20Original%20Sheet.png" width="200" height="200">
+**2018 Original Results** <br/>
+<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20Original%20Sheet.png" width="300" height="300">
 
 And on first glance, we see some deliverables that we can use. However, we can always do better. With the original code, the macro runs through a single If statement to get this outcome. And, because it goes through one pass, it will come with one total income; which would be it's closing price. 
 
 ### What we can do
 So, in knowing with we already have, how can we make more impactful numbers in a more efficient way? I went back to the drawing board to see what can be refactored and what I came up with to use 3 nested If statements within the original If statement so that we can go collected the daily outcomes of the stock to create a total sum. That way, instead of just looking at the closing price, we can see the total outcomes of the day for that stock. Albeit inflated, this can show how much was invested in a stock and if it's worth it to buy in based upon it's daily outcomes.
 
-2017 Refactored Results <br/>
-<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2017%20sheet.png" width="200" height="200">
+**2017 Refactored Results** <br/>
+<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2017%20sheet.png" width="300" height="300">
 
-2018 Refactored Results <br/>
-<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20sheet.png" width="200" height="200">
+**2018 Refactored Results** <br/>
+<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20sheet.png" width="300" height="300">
 
 ## Time
 More importantly, we do see that was a performance efficiency. Within the code, I coded in a timer to see how long it would take VBA to run the code for each year, before and after the refactoring. You can see by these macro pop-ups, that the refactored code is running 1/6 of the time it takes for the original code to run.
 
-2017 Original Code <br/>
-<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2017%20-%20Original.png" width="200" height="200">
+**2017 Original Code** <br/>
+<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2017%20-%20Original.png" width="600" height="230">
 
-2017 Refactored Code <br/>
-<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2017%20-%20Challenge.png" width="200" height="200">
+**2017 Refactored Code** <br/>
+<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2017%20-%20Challenge.png" width="600" height="230">
 
-2018 Original Code <br/>
-<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20-%20Original.png" width="200" height="200">
+**2018 Original Code** <br/>
+<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20-%20Original.png" width="600" height="230">
 
-2018 Refactored Code <br/>
-<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20-%20Challenge.png" width="200" height="200">
+**2018 Refactored Code** <br/>
+<img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20-%20Challenge.png" width="600" height="230">
 
 
 ## Summary
