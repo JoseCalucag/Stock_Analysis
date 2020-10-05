@@ -1,4 +1,7 @@
-# Stock Analysis
+<h1 align = "Center"> Stock Analysis
+</h1>
+
+
 
 <p align = "center">
 <img src = "https://raw.githubusercontent.com/JoseCalucag/stock_analysis/master/Resources/stock.jpeg">
