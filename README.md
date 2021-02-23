@@ -10,9 +10,9 @@ I wanted to see if there is an alternative to an established method that runs an
 
 # Preprocessing
 At first glance of the original code results, the output has three columns: <br>
-1) the Stock in it's abbreviated name <br>
-2) the Total Daily Outcome <br>
-3) 3) it's return for the day based upon it's starting price to it's closing price.<br>
+1) Each stock in it's abbreviated name <br>
+2) Each stock's total daily outcome <br>
+3) Each stock's return for the day based upon it's starting price onto it's closing price.<br>
 
 **2017 Original Results** <br/>
 <img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2017%20Original%20Sheet.png" width="300" height="300">
