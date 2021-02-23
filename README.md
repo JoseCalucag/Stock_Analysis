@@ -21,7 +21,7 @@ With the original code, the macro runs through a single If statement to get this
 
 # Results
 
-## The Refactored Code
+The Refactored Code <br>
 So, in knowing with we have, how can we make more impactful numbers in a more efficient way? By refactoring the code by utlizing 3 nested If statements within the original If statement, we can see the total outcomes of the day for each stock and not just the closing price. Albeit inflated, this  shows how much was invested in each stock and if it's worth it to buy in based upon it's daily outcomes.
 
 **2017 Refactored Results** <br/>
@@ -30,7 +30,7 @@ So, in knowing with we have, how can we make more impactful numbers in a more ef
 **2018 Refactored Results** <br/>
 <img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20sheet.png" width="300" height="300">
 
-## Time
+Time <br>
 More importantly, we do see there was a performance efficiency. I created a macro that times how long it would take VBA to run the code for each year and for the the origial code and for the refactored code. By looking at the macro result pop-ups, the refactored code is running 1/6 of the time it takes for the original code to run.
 
 **2017 Original Code** <br/>
