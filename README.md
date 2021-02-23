@@ -9,7 +9,10 @@
 I wanted to see if there is an alternative to an established method that runs analysis of a dozen stocks. Although this method does work and shows accurate results, is it possible to do the same task but more efficiently that takes less time and less resource intensive. To do this, I refactored the code and created a macro that will track the time for the code to run to then compare results. 
 
 # Preprocessing
-At first glance of the original code results, the output has three columns: 1) the Stock in it's abbreviated name, 2) the Total Daily Outcome and 3) it's return for the day based upon it's starting price to it's closing price.  
+At first glance of the original code results, the output has three columns: <br>
+1) the Stock in it's abbreviated name <br>
+2) the Total Daily Outcome <br>
+3) 3) it's return for the day based upon it's starting price to it's closing price.<br>
 
 **2017 Original Results** <br/>
 <img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2017%20Original%20Sheet.png" width="300" height="300">
