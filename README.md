@@ -18,15 +18,9 @@ At first glance of the original code results, the output has three columns: 1) t
 <img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20Original%20Sheet.png" width="300" height="300">
 
 With the original code, the macro runs through a single If statement to get this outcome. And, because it goes through one pass, it will come with one total income; which would be it's closing price. 
-<<<<<<< HEAD
 
 # Results
 
-=======
-
-# Results
-
->>>>>>> d34d0ebe9acdb512fea47291243e8e7e6f872da5
 ## The Refactored Code
 So, in knowing with we have, how can we make more impactful numbers in a more efficient way? By refactoring the code by utlizing 3 nested If statements within the original If statement, we can see the total outcomes of the day for each stock and not just the closing price. Albeit inflated, this  shows how much was invested in each stock and if it's worth it to buy in based upon it's daily outcomes.
 
@@ -51,12 +45,5 @@ More importantly, we do see there was a performance efficiency. I created a macr
 **2018 Refactored Code** <br/>
 <img src = "https://github.com/JoseCalucag/stock_analysis/blob/master/Resources/2018%20-%20Challenge.png" width="600" height="230">
 
-<<<<<<< HEAD
-
 # Summary
 There's always another way to crack an egg. By refactoring a working code, I found an alternative to relay the same results, but in a more impactful and a more efficient way. By knowing this is possible, we can expand its application to process a whole bigger dataset. And why stop here? Why  wait for data when you can impliment methods to make it work even faster to provide quicker and even real time up-to-the-minute results? We should not accept what can just be done when the resources are out there to create something better.
-
-=======
-# Summary
-There's always another way to crack an egg. By refactoring a working code, I found an alternative to relay the same results, but in a more impactful and a more efficient way. By knowing this is possible, we can expand its application to process a whole bigger dataset. And why stop here? Why  wait for data when you can impliment methods to make it work even faster to provide quicker and even real time up-to-the-minute results? We should not accept what can just be done when the resources are out there to create something better.
->>>>>>> d34d0ebe9acdb512fea47291243e8e7e6f872da5
